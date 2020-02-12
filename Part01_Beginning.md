@@ -37,7 +37,8 @@ When the bot logs in:
 
 ### :clipboard: Commands
 
-discord.py makes our lives easier by providing an easy way to create commands. We can assign aliases, permissions, descriptions and much more.
+discord.py makes our lives easier by providing an easy way to create commands. We can assign aliases, permissions, descriptions and much more.  
+=> [**discord.ext.commands**](https://discordpy.readthedocs.io/en/latest/ext/commands/commands.html)
 
 1) Assign a command prefix of your choice. (we will use `db!` for the examples)
     * It is possible to have a multi-character command prefix!
