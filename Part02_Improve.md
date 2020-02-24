@@ -20,7 +20,7 @@
 ### Some options that can be cool to use
 > In part 1, we saw the basics of a discord bot. Here, we will see more tools that you can use to improve your commands
  
- 1) Let's try to create a command `db!cooldown` that print a message every x seconds in a specific channel (x is the parameter of the command)
+ 1) Let's try to create a command `db!countdown` that prints a message every seconds *x* times in a specific channel (x is passed as parameter of the command)
  1) Now, let's try to add some aliases to already existing commands. With aliases you are able to call the same command but using a different name. `db!stop`, `db!sleep` and `db!exit` must do the same thing.
  1) You may not know, but a help command is automatically created with your bot. You can see all your existing commands, pretty useful right? But with only the name of the command, it can be hard to understand what it does sometimes. Add descriptions to your commands.
 
@@ -50,16 +50,16 @@ Let us introduce you to Cogs! You will see, it's very cool. To add some context,
     * Currency (All the commands based on currency are there)
     
 :exclamation: *The System Cog have to be invisible for everyone with `db!help` but not the two other Cogs*
- 1) Let's create the system that will allow users to level up. When a user post a message, it gains xp, easy no?
+ 1) Let's create the system that will allow users to level up. When a user posts a message, he gains xp.
     * When a user levels up, mention him with a nice message :)
  1) Users can gain xp now, nice! Let's give them the possibility to gain money now. Add a `db!daily` command that give money to the user (must have a cooldown)
  1) Great! Now, why don't we reward our fellow users with special access at a certain level and enough money ? Add a `db!buy` command that give access to new channels
 
 ## :rocket: Extras
 ### To finish
-> To finish this part, let's see few more things that can be cool to know
- 1) Did you saw that the help was alone on the display? Let's assign it to a category!
- 1) Did you hear about Extensions (there's a link at the top)? Why are we not trying to make some of our Cogs load dynamically when we need them?
+To finish this part, let's see few more things that can be good to know.
+ 1) Did you see that the help wasn't in any category on the help message? Fix it, assign it to a category!
+ 1) Did you hear about Extensions (there's a link on top)? Why not trying to make some of our Cogs to load dynamically when we need them?
 
 ---
 
